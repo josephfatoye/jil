@@ -10,6 +10,9 @@ function App() {
           JIL - Team X
         </p>
         <p>Members</p>
+        <ul>
+          <li>Mofi</li>
+        </ul>
       </header>
     </div>
   );
