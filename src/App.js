@@ -10,10 +10,8 @@ function App() {
           fontWeight: 'bold',
         }}>
           JIL - Team X
-        </p>
-        <p style={{
-          fontWeight: 'bold',
-        }}>Members</p>
+          <br />
+          Members</p>
         <ul>
           <li>Mofi</li>
           <li>Precious</li>
