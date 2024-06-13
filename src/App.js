@@ -12,6 +12,7 @@ function App() {
         <p>Members</p>
         <ul>
           <li>Mofi</li>
+          <li>Precious</li>
         </ul>
       </header>
     </div>
