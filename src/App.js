@@ -9,7 +9,7 @@ function App() {
         <p style={{
           fontWeight: 'bold',
         }}>
-          JIL - Team X
+          JIL - (Team X)
           <br />
           Members</p>
         <ul style={{
