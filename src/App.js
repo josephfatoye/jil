@@ -12,7 +12,9 @@ function App() {
           JIL - Team X
           <br />
           Members</p>
-        <ul>
+        <ul style={{
+          textAlign: 'left'
+        }}>
           <li>Mofi</li>
           <li>Precious</li>
           <li>Joshua</li>
