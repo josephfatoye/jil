@@ -1,5 +1,4 @@
-# JIL (Team X)
-## PipeOps Hackathon
+# JIL (Team X) - PipeOps Hackathon
 
 ### Members: 
 1. Mofi
