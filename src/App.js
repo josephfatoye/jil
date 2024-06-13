@@ -12,15 +12,7 @@ function App() {
           JIL - Team X
           <br />
           Members</p>
-        <ul style={{
-          textAlign: 'left'
-        }}>
-          <li>Mofi</li>
-          <li>Precious</li>
-          <li>Joshua</li>
-          <li>Goodness</li>
-          <li>Joseph</li>
-        </ul>
+        
       </header>
     </div>
   );
