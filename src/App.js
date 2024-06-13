@@ -14,6 +14,7 @@ function App() {
           <li>Mofi</li>
           <li>Precious</li>
           <li>Joshua</li>
+          <li>Goodness</li>
         </ul>
       </header>
     </div>
