@@ -9,6 +9,7 @@ function App() {
         <p>
           JIL - Team X
         </p>
+        <p>Members</p>
       </header>
     </div>
   );
