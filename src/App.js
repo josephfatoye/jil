@@ -11,7 +11,7 @@ function App() {
         }}>
           JIL - (Team X)
           <br />
-          Members</p>
+          Members:</p>
         <ul style={{
           textAlign: 'left'
         }}>
