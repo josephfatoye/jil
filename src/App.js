@@ -2,6 +2,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { ChakraProvider } from '@chakra-ui/react'
 import { Page404, LandingPage } from './pages'
 import { Footer, Header } from './components'
 
@@ -19,8 +20,10 @@ function App() {
   ]);
 
   return (
-    <div className="bg-white min-h-screen">
-      <RouterProvider router={router} />
+    <div className="bg-white min-h-screen overflow-hidden">
+      <ChakraProvider>
+        <RouterProvider router={router} />
+      </ChakraProvider>
     </div>
   );
 }
