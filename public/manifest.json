@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "JiL",
+  "name": "JiL - AI for Food",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "labeled_food.jpeg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "labeled_food.jpeg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "labeled_food.jpeg",
       "type": "image/png",
       "sizes": "512x512"
     }
