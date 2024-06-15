@@ -6,7 +6,7 @@ function Header() {
   const [menuToggle, setMenuToggle] = useState(false);
   const handleToggle = () => setMenuToggle(!menuToggle);
   return (
-    <div className="bg-white font-medium relative w-full p-2 flex flex-row items-center justify-between px-4 md:px-12">
+    <div className="bg-white bg-opacity-95 fixed font-medium z-10 w-full p-2 flex flex-row items-center justify-between px-4 md:px-12">
       <p className="text-3xl flex items-center md:text-5xl text-orange-400 md:w-full">
         <IoFastFoodSharp />{" "}
         <i className="text-green-400 text-2xl md:text-4xl md:flex-1 md:text-center md:w-full">
@@ -32,7 +32,7 @@ function Header() {
       </div>
 
       {menuToggle && (
-        <div className="md:hidden absolute top-0 left-0 z-50 w-screen h-screen flex items-center justify-center">
+        <div className="md:hidden absolute top-0 left-0 z-50 w-screen min-h-screen flex items-center justify-center">
           <div
             onClick={handleToggle}
             className="absolute backdrop-blur w-screen h-screen"
