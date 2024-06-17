@@ -3,8 +3,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react'
-import { Page404, LandingPage } from './pages'
+import { Page404, LandingPage, Dashboard } from './pages'
 import { Footer, Header } from './components'
+import { AuthContextProvider } from "./context/Auth";
 
 function App() {
   const router = createBrowserRouter([
@@ -17,13 +18,22 @@ function App() {
       </>,
       errorElement: <Page404 />
     },
+    {
+      path: "/dashboard",
+      element: <>
+        <Header />
+        <Dashboard />
+      </>,
+    },
   ]);
 
   return (
     <div className="bg-white min-h-screen overflow-hidden">
-      <ChakraProvider>
-        <RouterProvider router={router} />
-      </ChakraProvider>
+      <AuthContextProvider>
+        <ChakraProvider>
+          <RouterProvider router={router} />
+        </ChakraProvider>
+      </AuthContextProvider>
     </div>
   );
 }
