@@ -3,9 +3,9 @@ import { Hero } from "../components";
 import food from "../assets/labeled_food.jpeg";
 function LandingPage() {
   const first = {
-    mainText: "The fastest way to track what you eat",
+    mainText: "The easiest way to track what you eat",
     subText:
-      "Eat smart, lose weight. AI-powered calorie tracking from photos of your food. Just snap a photo - we'll track the calories.",
+      "Eat right, lose weight. AI-enhanced calorie tracking from pictures of your food. Just take a picture & we'll get the calories.",
     imgUrl: food,
     imgAlt: "Get's started",
     buttonText: "Get's started",
@@ -16,7 +16,7 @@ function LandingPage() {
   const second = {
     mainText: "Track Calories with JiL",
     subText:
-      "JIL is the first app where you can take a picture of any meal and get an accurate calorie count and nutrition in seconds",
+      "JIL is the best app for taking a picture of any meal and getting an accurate calorie count and nutrition in seconds!",
     imgUrl: food,
     imgAlt: "Get's started",
     // buttonText: "Get's started",
@@ -27,7 +27,7 @@ function LandingPage() {
   return (
     <div className="mt-6">
       <Hero data={first} />
-      <Hero data={second} />
+      <Hero data={second} id="about" />
     </div>
   );
 }
