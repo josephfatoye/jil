@@ -1,4 +1,5 @@
-import Page404 from "./Page404";
+import Dashboard from "./Dashboard";
 import LandingPage from "./LandingPage";
+import Page404 from "./Page404";
 
-export { Page404, LandingPage }
+export { Dashboard, LandingPage, Page404 }
